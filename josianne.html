@@ -1,0 +1,67 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>design webs</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 5px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 60%;
+      margin: 50 auto;
+    }
+    .header,
+    .login,
+    .footer {
+      border: 5px solid orangered;
+      text-align: center;
+      padding: 20px;
+      margin-top: 10px;
+      background-color: #f7073b;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+      background-color: green;
+    }
+    .left,
+    .right,
+    .main {
+      border: 1px solid #f7073b;
+      padding: 30px;
+      min-height: 350px;
+    }
+    .left,
+    .right {
+      width: 30%;
+    }
+    .main {
+      width: 65%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      Header Area
+    </div>
+    <div class="login">
+      Log in ,location information
+    </div>
+    <div class="content">
+      <div class="left">Left Area</div>
+      <div class="main">Main Area</div>
+      <div class="right">Right Area</div>
+    </div>
+    <div class="footer">
+      Footer Area
+    </div>
+  </div>
+</body>
+</html>
